@@ -11,7 +11,7 @@ namespace GymManagementPL.Controllers
 		private readonly IAccountService accountService;
 		private readonly SignInManager<ApplicationUser> signInManager;
 
-		public AccountController(IAccountService accountService , SignInManager<ApplicationUser> signInManager)
+		public AccountController(IAccountService accountService, SignInManager<ApplicationUser> signInManager)
 		{
 			this.accountService = accountService;
 			this.signInManager = signInManager;

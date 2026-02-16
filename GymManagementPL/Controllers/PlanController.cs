@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GymManagementPL.Controllers
 {
-	[Authorize]
+	//[Authorize]
 	public class PlanController : Controller
 	{
 		private readonly IPlanService planService;

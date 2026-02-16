@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GymManagementPL.Controllers
 {
-	[Authorize]
+	//[Authorize]
 	public class HomeController : Controller
 	{
 		private readonly IAnalyticService _analyticService;

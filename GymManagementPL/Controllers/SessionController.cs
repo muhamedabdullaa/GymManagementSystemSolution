@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace GymManagementPL.Controllers
 {
-	[Authorize]
+	//[Authorize]
 	public class SessionController : Controller
 	{
 		private readonly ISessionService sessionService;
